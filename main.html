@@ -1,15 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+<style>
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+</style>
 </head>
 <body>
-    <!-- add table here -->
 
-        
+<table>
+  <caption>Game Statistics</caption>
+  <thead>
+    <tr>
+      <th>Player</th>
+      <th>Matches Played</th>
+      <th>Goals Scored</th>
+      <th>Assists</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Player 1</td>
+      <td>15</td>
+      <td>8</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Player 2</td>
+      <td>14</td>
+      <td>10</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Player 3</td>
+      <td>16</td>
+      <td>12</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>Player 4</td>
+      <td>13</td>
+      <td>6</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+
 </body>
 </html>
